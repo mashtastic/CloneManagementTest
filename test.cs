@@ -4,4 +4,9 @@ public class TestClass
     {
         var i = 3;
     }
+
+    public void TestMethod(int i)
+    {
+        var a = i;
+    }
 }
