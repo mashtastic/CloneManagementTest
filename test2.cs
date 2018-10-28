@@ -5,8 +5,8 @@ public class TestClass
         var i = 5;
     }
 
-    public void TestMethod(int i)
+    public void TestMethod(int x)
     {
-        var a = i;
+        var a = x;
     }
 }
