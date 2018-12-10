@@ -2,6 +2,7 @@ public class TestClass
 {
     public void TestMethod()
     {
+        // Test
         var i = 5;
     }
 
