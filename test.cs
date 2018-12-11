@@ -4,6 +4,7 @@ public class TestClass
     {
         // Test
         var i = 5;
+        // Test
     }
 
     public void TestMethod(int x)
