@@ -9,5 +9,6 @@ public class TestClass
     public void TestMethod(int x)
     {
         var a = x;
+        // Test
     }
 }
