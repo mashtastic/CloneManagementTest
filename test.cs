@@ -12,7 +12,6 @@ public class TestClass
     {
         if(n > 1)
         {
-            // Continue recursion
             Fibo(b, a + b, --n)
         }
     }
