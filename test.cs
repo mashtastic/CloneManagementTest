@@ -8,10 +8,9 @@ public class TestClass
         }
     }
 
-    public void Fibo2(int a, int b, int n)
-    {
-        if (n > 1)
-        {
+    public void Fibo2(int a, int b, int n) {
+        if (n > 1) {
+            // Continue recursion
             Fibo2(b, a + b, --n);
         }
     }
