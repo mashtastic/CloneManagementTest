@@ -1,18 +1,19 @@
 public class TestClass
 {
-    public void TestMethod()
+    public void Fibo(int a, int b, int n)
     {
-        // Test
-        var a = 1;
-        // Test
+        if(n > 1)
+        {
+            Fibo(b, a + b, --n)
+        }
     }
 
-    public void TestMethod(int x)
+    public void Fibo2(int a, int b, int n)
     {
-        // Test
-        // Test
-        // Test
-        var a = x;
-        // Test
+        if(n > 1)
+        {
+            // Continue recursion
+            Fibo(b, a + b, --n)
+        }
     }
 }
