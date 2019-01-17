@@ -1,18 +1,20 @@
 public class TestClass
 {
-    public void Fibo(int a, int b, int n)
+    public int Fibo(int a, int b, int n)
     {
         if (n > 1)
         {
-            Fibo(b, a + b, --n);
+            return Fibo(b, a + b, --n);
         }
+        return b;
     }
 
-    public void Fibo(int a, int b, int n)
+    public int Fibo(int a, int b, int n)
     {
         if (n > 1)
         {
-            Fibo(b, a + b, --n);
+            return Fibo(b, a + b, --n);
         }
+        return b;
     }
 }
